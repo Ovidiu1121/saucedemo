@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: DM Sans, Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-container {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subheader-title {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside-quantity {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-quantity {
+    height: 100%;
+    margin: 20px 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid rgb(129, 129, 129);
+}
+
+.label {
+    margin: 0 10px 20px 0;
+}
+
+.pricebar {
+    margin-top: 40px;
+}
+
+.button {
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+}
+
+.cart-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+
+.conitnue-shopping-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.checkout-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(48, 199, 48);
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+    height: 150px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:350px) {
+
+    .button {
+        width: 150px;
+    }
+
+    .pricebar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 75%;
+    }
+
+    .cart-footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .conitnue-shopping-button {
+        width: 150px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .checkout-button {
+        width: 150px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .label {
+        width: 100%;
+    }
+
+    .cards-container {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+}
