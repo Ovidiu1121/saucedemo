@@ -12,7 +12,17 @@ body {
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.navbar-cart {
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.navbar-menu {
+    padding-top: 10px;
+    margin-left: 20px;
 }
 
 .subheader-title {
@@ -110,6 +120,15 @@ body {
     align-items: center;
 }
 
+.price {
+    font-size: 25px;
+}
+
+.button-add-to-cart:nth-of-type(2) {
+    border-color: red;
+    color: red;
+}
+
 @media(min-width:350px) {
 
     .card {
@@ -150,13 +169,10 @@ body {
     .cards-container {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
     }
 
     .card {
-        flex-basis: calc(40% - 10px);
-        margin-bottom: 20px;
-        min-width: 500px;
+        width: 40%;
     }
 
     .image-container {
@@ -165,7 +181,6 @@ body {
     }
 
     .card-image {
-        padding-left: 0;
         height: 100%;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
