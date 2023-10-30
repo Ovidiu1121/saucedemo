@@ -23,6 +23,7 @@ body {
 .aside-container {
     display: flex;
     flex-direction: row;
+    margin-left: 5%;
 }
 
 .aside-quantity {
@@ -79,14 +80,14 @@ body {
     background-color: transparent;
     width: 100%;
     height: 30px;
-    margin-bottom: 20px;
     font-size: 15px;
+    text-align: center;
 }
 
 .checkout-button {
     border: 1px solid black;
     border-radius: 5px;
-    background-color: rgb(48, 199, 48);
+    background-color: rgb(125, 228, 125);
     width: 100%;
     height: 30px;
     font-size: 15px;
